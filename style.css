@@ -1,0 +1,206 @@
+/*------------------ css reset -------------------------*/
+
+* {
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    max-width: 100%;
+    margin: auto;
+    line-height: 1.5em;
+    background-color: white;
+    font-size: 1em;
+    font-family: 'raleway', sans-serif;
+    color: black;
+    overflow-x: hidden;
+}
+
+
+/*-------- logo --------------------------------*/
+
+#logo img {
+    width: 5em;
+    margin: auto;
+    max-width: 4em;
+    margin-top: -2em;
+    align-content: center;
+}
+
+
+/*------- nav ---------------------------------*/
+
+nav {
+    padding-top: 3em;    
+    margin: auto;
+    max-width: 100%;
+    background color: white;
+    
+}
+nav ul {
+    text-align: center;
+    font-size: 1em;
+    letter-spacing: .5px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'raleway', sans-serif;
+}
+
+.left-nav {
+    float: left;
+    padding-right: 1em;
+    font-size: 1.35em;
+          
+}
+
+.right-nav {
+    float: right;
+    padding-right: 1em;
+    font-size: 1.35em;
+    
+}
+
+.right-nav: hover {
+    color: lightgrey;
+  
+        
+}
+
+a:hover {
+    color: lightgray;
+}
+.about {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    font-size: 1em;
+    padding-bottom: 5vh;
+    float: left;
+}
+.about h1 {
+    max-width: 100%;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 2em;
+    margin: auto;
+    background-color: #ffff;
+    font-size: 2em;
+}
+
+
+
+.about h2{
+    max-width: 100%;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 2em;
+    margin: auto;
+    background-color: #ffff;
+    font-size: 2em;
+}
+
+
+
+/*----- Footer -----*/
+
+
+/*---------------------------------------------- social media links -----------------------------------------*/
+
+.contact {
+    width: 100%;
+    line-height: 1em;
+    margin: auto;
+    background-color: lightgrey;
+    font-size: 1.75em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    float: left;
+    font-family: 'raleway', sans-serif;
+}
+
+section.contact h1 {
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+section.contact li {
+    display: inline;
+}
+
+section.contact ul {
+  display: flex;
+  justify-content: center;
+    padding-top: 20px;
+    padding-right: 2.5em;
+}
+section.contact img {
+      max-height: 5em;
+        max-width: 5em;
+        padding-top: 1em;
+      
+}
+
+/*------------------------------------ paragraphs --------------------------------------*/
+
+p {  line-height: 1.65em;
+    letter-spacing: .01em;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: .75em;
+    font-family: 'raleway', sans-serif;
+    font-weight: normal;
+    color: black;
+    
+}
+
+.visualmarque {
+    padding-bottom: .5em;
+}
+
+/*---gallery ---*/
+
+
+.gallery {
+        display: grid;
+        grid-template-rows: repeat(2, 250px);
+        grid-template-columns: repeat(4, 1fr);
+        padding: 5px;
+    margin-left: 5px;
+    
+}
+
+.grid-item img {
+    height: auto;
+    width: 300px;
+    
+}
+.gallery > div:hover > a > img {
+    transform: scale(1.25, 1.25);
+    transition: .3s
+
+}
+
+#sprout2 {
+        
+}
+
+
