@@ -151,13 +151,25 @@ p {
 .icon img {
     max-width: 300px;
     padding-bottom: 3em;
-    margin-left: 30em
+    margin-left: 30em; 
+    text-align: center;
 }
 
+.bowieicon img {
+     max-width: 225px;
+    padding-bottom: 3em;
+    margin-left: 30em;
+}
+
+.mileyicon img {
+    max-width: 225px;
+    padding-bottom: 3em;
+    margin-left: 30em;
+}
 .question {
     text-align: center;
     font-size: 1em;
-    font-family: "acier-bat-solid", sans-serif;;
+    font-family: "acier-bat-solid", sans-serif;
 }
 
 .answers  {
