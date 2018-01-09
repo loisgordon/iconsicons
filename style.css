@@ -12,10 +12,12 @@ body {
     background-color: white;
     font-size: 1em;
     /*-- font-family: 'raleway', sans-serif; --*/
-    font-family: "acier-bat-noir",sans-serif;
+    font-family: "acier-bat-noir", sans-serif;
     color: black;
     overflow-x: hidden;
 }
+
+
 /*------- nav ---------------------------
 nav {
     margin: auto;
@@ -46,6 +48,7 @@ nav a {
 }
 ------*/
 
+
 /*-------- right nav
 .right-nav {
     float: right;
@@ -63,9 +66,12 @@ nav a {
 
 
 /*-----------------title-------*/
+
 .titleimage img {
     max-width: 50vw;
-    }
+}
+
+
 /*------------------ nav buttons -------------*/
 
 .navbutton img {
@@ -73,120 +79,135 @@ nav a {
     margin-top: -25em;
     margin-right: 10em;
 }
+
 .navbutton img:hover {
-    transform: scale(1.25, 1.25) ;
+    transform: scale(1.25, 1.25);
     transition: .3s;
     z-index: 1;
 }
+
 .navbutton2 img {
     float: right;
     margin-top: -15em;
     margin-right: 10em;
 }
- .navbutton2 img:hover {
-    transform: scale(1.25, 1.25) ;
+
+.navbutton2 img:hover {
+    transform: scale(1.25, 1.25);
     transition: .3s;
     z-index: 1;
 }
+
 a:hover {
     color: lightgray;
 }
+
 .title {
     width: 100%;
     line-height: 1em;
     margin: auto;
     font-size: 1em;
-    padding-bottom: 5em;;
-}
-.title h1 {
-    max-width: 100%;
-    text-align: center;
-   font-family: "acier-bat-noir",sans-serif;
-    font-weight: bold;
-    color: black;
-    line-height: 2em;
-    margin: auto;
-    background-color: #ffff;
-    font-size: 2em;
-}
-
-.title h2{
-    max-width: 100%;
-    text-align: center;
-   font-family: "acier-bat-noir",sans-serif;
-    font-weight: bold;
-    color: black;
-    line-height: 2em;
-    margin: auto;
-    background-color: #ffff;
-    font-size: 2em;
+    padding-bottom: 5em;
+    ;
 }
 
 
+/*------------------ paragraphs --------*/
 
-/*------------------------------------ paragraphs --------------------------------------*/
-
-p {  line-height: 1.65em;
+p {
+    line-height: 1.65em;
     letter-spacing: .01em;
     max-width: 100%;
-    text-align: left;
+    text-align: center;
     margin: auto;
     font-size: .75em;
     font-family: 'raleway', sans-serif;
     font-weight: normal;
     color: black;
     margin: 2em;
-    
 }
-
 
 
 /*--------- quiz style ------------*/
 
-.quiz
 
-{
-    
-}
-.answers li { 
-list-style: upper-alpha; 
-} 
+/*------ quiz intro ---------*/
 
-label { 
-margin-left: 0.5em; 
-cursor: pointer; 
-} 
-
-#results { 
-background: #dddada; 
-color: 000000; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
+.intro {
+    font-size: 1em;
+    font-family: "acier-bat-solid", sans-serif;
 }
 
-#results:hover { 
-background: #3d91b8; 
-color: #ffffff; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
-} 
+.quiz h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: 1em;
+    color: #123858;
+}
 
-#categorylist { 
-margin-top: 6px; 
-display: none; 
-} 
 
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
-display: none; 
+/*-------- quiz -------*/
+
+.icon img {
+    max-width: 300px;
+    padding-bottom: 3em;
+    margin-left: 30em
+}
+
+.question {
+    text-align: center;
+    font-size: 1em;
+}
+
+.answers li {
+    list-style: upper-alpha;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+#results {
+    background: #dddada;
+    color: 000000;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#results:hover {
+    background: #3d91b8;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#categorylist {
+    margin-top: 6px;
+    display: none;
+}
+
+#category1,
+#category2,
+#category3,
+#category4,
+#category5,
+#category6,
+#category7,
+#category8,
+#category9,
+#category10,
+#category11 {
+    display: none;
 }
 
 #closing {
-display: none;
-font-style: italic;
+    display: none;
+    font-style: italic;
 }
