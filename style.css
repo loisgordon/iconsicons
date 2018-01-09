@@ -157,15 +157,21 @@ p {
 .question {
     text-align: center;
     font-size: 1em;
+    font-family: "acier-bat-solid", sans-serif;;
 }
 
-.answers li {
+.answers  {
     list-style: upper-alpha;
+    text-align: left;
+    margin-left: 30em;
 }
 
 label {
     margin-left: 0.5em;
     cursor: pointer;
+    text-align: center;
+    font-family: "acier-bat-solid", sans-serif;
+    
 }
 
 #results {
