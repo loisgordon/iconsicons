@@ -66,12 +66,28 @@ nav a {
 .titleimage img {
     max-width: 50vw;
     }
+/*------------------ nav buttons -------------*/
 
 .navbutton img {
     float: right;
-    margin-top: -25vh;
+    margin-top: -25em;
+    margin-right: 10em;
 }
- 
+.navbutton img:hover {
+    transform: scale(1.25, 1.25) ;
+    transition: .3s;
+    z-index: 1;
+}
+.navbutton2 img {
+    float: right;
+    margin-top: -15em;
+    margin-right: 10em;
+}
+ .navbutton2 img:hover {
+    transform: scale(1.25, 1.25) ;
+    transition: .3s;
+    z-index: 1;
+}
 a:hover {
     color: lightgray;
 }
