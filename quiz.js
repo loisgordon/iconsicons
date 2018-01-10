@@ -29,25 +29,25 @@ var cat10name = "10";
 var cat11name = "None";            
             
 
-var cat1 = ($("input[@name=q1]:checked").val() != "a"); 
+var cat1 = ($("input[@name=q1]:checked").val() != "b"); 
            
-var cat2 = ($("input[@name=q2]:checked").val() != "a");  
+var cat2 = ($("input[@name=q2]:checked").val() != "d");  
 
-var cat3 = ($("input[@name=q3]:checked").val() != "a");  
+var cat3 = ($("input[@name=q3]:checked").val() != "c");  
 
 var cat4 = ($("input[@name=q4]:checked").val() != "a");  
 
-var cat5 = ($("input[@name=q5]:checked").val() != "a"); 
+var cat5 = ($("input[@name=q5]:checked").val() != "d"); 
 
-var cat6 = ($("input[@name=q6]:checked").val() != "a");  
+var cat6 = ($("input[@name=q6]:checked").val() != "c");  
 
-var cat7 = ($("input[@name=q7]:checked").val() != "a"); 
+var cat7 = ($("input[@name=q7]:checked").val() != "c"); 
 
 var cat8 = ($("input[@name=q8]:checked").val() != "a");  
 
-var cat9 = ($("input[@name=q9]:checked").val() != "a"); 
+var cat9 = ($("input[@name=q9]:checked").val() != "d"); 
 
-var cat10 = ($("input[@name=q10]:checked").val() != "a");  
+var cat10 = ($("input[@name=q10]:checked").val() != "d");  
 
 var cat11 = (!cat1 && !cat2 && !cat3 && !cat4 && !cat5 && !cat6 && !cat7 && !cat8 && !cat9 && !cat10); var categories = [];                        
 
