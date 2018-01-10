@@ -68,7 +68,7 @@ nav a {
 /*-----------------title-------*/
 
 .titleimage img {
-    max-width: 50vw;
+    max-width: 50%;
     margin-left: 2em;
 }
 
@@ -77,8 +77,9 @@ nav a {
 
 .navbutton img {
     float: right;
-    margin-top: -25em;
-    margin-right: 10em;
+    margin-top: -30%;
+    margin-right: 15%;
+    max-width: 50%;
 }
 
 .navbutton img:hover {
@@ -89,8 +90,9 @@ nav a {
 
 .navbutton2 img {
     float: right;
-    margin-top: -15em;
-    margin-right: 10em;
+    margin-top: -20%;
+    margin-right: 15%;
+    max-width: 50%;
 }
 
 .navbutton2 img:hover {
@@ -121,11 +123,12 @@ p {
     max-width: 100%;
     text-align: center;
     margin: auto;
-    font-size: .75em;
-    font-family: 'raleway', sans-serif;
+    font-size: 2em;
+    font-family: "acier-bat-noir", sans-serif;
     font-weight: normal;
-    color: black;
+    color: #123858;
     margin: 2em;
+    
 }
 
 
@@ -142,7 +145,7 @@ p {
 .quiz h2 {
     font-size: 3em;
     text-align: center;
-    margin-left: 1em;
+    margin:auto;
     color: #123858;
 }
 
@@ -152,26 +155,26 @@ p {
 .icon img {
     max-width: 300px;
     padding-bottom: 3em;
-    margin-left: 30em; 
+    margin-left: 40%; 
     text-align: center;
 }
 
 .bowieicon img {
-     max-width: 225px;
+    max-width: 15em;
     padding-bottom: 3em;
-    margin-left: 30em;
+    margin-left: 40%;
 }
 
 .mileyicon img {
-    max-width: 225px;
+    max-width: 15em;
     padding-bottom: 3em;
-    margin-left: 30em;
+    margin-left: 40%;
 }
 
 .amyicon img {
-    max-width: 225px;
+    max-width: 15em;
     padding-bottom: 3em;
-    margin-left: 30em;
+    margin-left: 40%;
     
 }
 .question {
@@ -183,10 +186,18 @@ p {
 .answers  {
     list-style: upper-alpha;
     text-align: left;
-    margin-left: 20em;
+    margin-left: 40%;
     font-size: 1.5em;
 }
+.answers img {
+    padding-left: 2.5em;
+}
 
+.answers img:hover {
+    transform: scale(1.25, 1.25);
+    transition: .3s;
+    z-index: 1;
+}
 label {
     margin-left: 0.5em;
     cursor: pointer;
@@ -196,23 +207,10 @@ label {
 }
 
 #results {
-    background: #dddada;
-    color: 000000;
     padding: 3px;
     text-align: center;
-    width: 200px;
     cursor: pointer;
-    border: 1px solid gray;
-}
-
-#results:hover {
-    background: #3d91b8;
-    color: #ffffff;
-    padding: 3px;
-    text-align: center;
-    width: 200px;
-    cursor: pointer;
-    border: 1px solid gray;
+    font-family: "acier-bat-solid", sans-serif;
 }
 
 #categorylist {
@@ -232,9 +230,23 @@ label {
 #category10,
 #category11 {
     display: none;
+    font-family: "acier-bat-noir", sans-serif;
+    
 }
 
 #closing {
     display: none;
     font-style: italic;
+}
+
+.totopbutton img {
+    align-content: center;
+    margin-left: 45%;
+    padding-bottom: 3em;
+    
+}
+.totopbutton img:hover {
+    transform: scale(1.25, 1.25);
+    transition: .3s;
+    z-index: 1;
 }
