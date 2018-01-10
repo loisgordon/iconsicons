@@ -134,12 +134,12 @@ p {
 /*------ quiz intro ---------*/
 
 .intro {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: "acier-bat-solid", sans-serif;
 }
 
 .quiz h2 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin-left: 1em;
     color: #123858;
@@ -166,16 +166,24 @@ p {
     padding-bottom: 3em;
     margin-left: 30em;
 }
+
+.amyicon img {
+    max-width: 225px;
+    padding-bottom: 3em;
+    margin-left: 30em;
+    
+}
 .question {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "acier-bat-solid", sans-serif;
 }
 
 .answers  {
     list-style: upper-alpha;
     text-align: left;
-    margin-left: 30em;
+    margin-left: 20em;
+    font-size: 1.5em;
 }
 
 label {
