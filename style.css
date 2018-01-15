@@ -1,4 +1,4 @@
-/*------------------ css reset -------------------------*/
+    /*------------------ css reset -------------------------*/
 
 * {
     margin: 0;
@@ -128,7 +128,6 @@ p {
     font-weight: normal;
     color: #123858;
     margin: 2em;
-    
 }
 
 
@@ -145,7 +144,7 @@ p {
 .quiz h2 {
     font-size: 3em;
     text-align: center;
-    margin:auto;
+    margin: auto;
     color: #123858;
 }
 
@@ -155,7 +154,7 @@ p {
 .icon img {
     max-width: 300px;
     padding-bottom: 3em;
-    margin-left: 40%; 
+    margin-left: 40%;
     text-align: center;
 }
 
@@ -175,20 +174,21 @@ p {
     max-width: 15em;
     padding-bottom: 3em;
     margin-left: 40%;
-    
 }
+
 .question {
     text-align: center;
     font-size: 1.5em;
     font-family: "acier-bat-solid", sans-serif;
 }
 
-.answers  {
+.answers {
     list-style: upper-alpha;
     text-align: left;
     margin-left: 40%;
     font-size: 1.5em;
 }
+
 .answers img {
     padding-left: 2.5em;
 }
@@ -198,12 +198,12 @@ p {
     transition: .3s;
     z-index: 1;
 }
+
 label {
     margin-left: 0.5em;
     cursor: pointer;
     text-align: center;
     font-family: "acier-bat-solid", sans-serif;
-    
 }
 
 #results {
@@ -231,7 +231,6 @@ label {
 #category11 {
     display: none;
     font-family: "acier-bat-noir", sans-serif;
-    
 }
 
 #closing {
@@ -243,11 +242,33 @@ label {
     align-content: center;
     margin-left: 45%;
     padding-bottom: 3em;
-    padding-top: 1em;
-    
+    padding-top: 2em;
 }
+
 .totopbutton img:hover {
     transform: scale(1.25, 1.25);
     transition: .3s;
     z-index: 1;
 }
+
+.download h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 2em;
+    color: #123858;
+}
+
+.download img {
+    float: right;
+    padding-bottom: 2em;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: -10em;
+    margin-right: 18em;
+}
+
+.download img:hover {
+    transform: scale(1.25, 1.25);
+    transition: .3s;
+    z-index: 1;
